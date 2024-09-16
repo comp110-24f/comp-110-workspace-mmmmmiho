@@ -5,6 +5,7 @@ __author__ = "730827794"
 
 def main() -> None:
     contains_char(word=input_word(), letter=input_letter())
+    return None
 
 
 def input_word() -> str:
@@ -44,6 +45,8 @@ def contains_char(word: str, letter: str) -> None:
         print(letter + " found at index 4")
         count = count + 1
 
+    if count == 1:
+        print(str(count) + " instance of " + letter + " found in " + word)
     if count != 0:
         print(str(count) + " instances of " + letter + " found in " + word)
     else:
