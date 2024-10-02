@@ -1,3 +1,3 @@
-x: int = 1
-x = x + 1
-print(x)
+print("The \U0001F920 rides a \U0001F40E!")
+print("Hi")
+print(f"Hi")
