@@ -28,7 +28,7 @@ def input_guess(secret_word_len: int) -> str:
     )  # when we use print(f-),we can use {} for variables
     while len(guess_word) != secret_word_len:
         guess_word = str(
-            input(f"That wan't {str(secret_word_len)} charas! Try again: ")
+            input(f"That wasn't {str(secret_word_len)} chars! Try again: ")
         )
     print(guess_word)
     return guess_word
